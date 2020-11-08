@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-thumbnail: "img/{{ lower (replace .Name "-" " ")   | title }}-comic.jpg"
+image: "img/{{ lower (replace .Name "-" "_")   | title }}-chapter.jpg"
 draft: false
 ---
