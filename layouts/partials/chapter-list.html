@@ -4,8 +4,8 @@
         <div class="column is-narrow">
             <figure class="image is-64x64 mx-2">
                 <a href="{{ $permalink }}">
-                    {{ if .Params.image }}
-                    <img src="{{ .Params.image }}" alt="">
+                    {{ if .Params.thumbnail }}
+                    <img src="{{ .Params.thumbnail }}" alt="">
                     {{ else }}
                         <i class="far fa-3x fa-image"></i></i>
                     {{ end }}
